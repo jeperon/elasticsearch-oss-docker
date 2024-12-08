@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch-oss:7.10.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.17.26
 
 RUN chown -R :elasticsearch /usr/share/elasticsearch/data
 
